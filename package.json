@@ -1,0 +1,10 @@
+{
+  "name": "awd-btcn04",
+  "scripts": {},
+  "author": "Truong Minh Phat",
+  "license": "MIT",
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
