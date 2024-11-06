@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { client } from "./db/client.js";
 import app from "./app.js";
 

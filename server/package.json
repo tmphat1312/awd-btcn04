@@ -3,15 +3,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "NODE_ENV=development node --env-file=.env --watch index.js",
-    "start": "node --env-file=.env index.js",
-    "start:prod": "NODE_ENV=production node --env-file=.env index.js"
+    "dev": "NODE_ENV=development node --watch index.js",
+    "start": "node index.js",
+    "start:prod": "NODE_ENV=production node index.js"
   },
   "dependencies": {
     "@libsql/client": "^0.14.0",
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
